@@ -1,0 +1,192 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <title>Quipu Layout</title>
+    <style>
+        header, section, footer, aside, nav, article, figure, figcaption{ dispaly: block;}
+	body{
+	color:#666666;
+        background-color: #f9f8f6;
+        background-position: center;
+        font-family: Georgia, Times, serif;
+        line-height: 1.4em;
+        margin: 0px;
+	}
+        .wrapper{
+            width: 940px;
+            margin: 20px auto 20px auto;
+            border: 2px solid #000000;
+            background-color: #ffffff;
+        }
+      header {
+        height: 160px;
+        background-color:#ffcccc;
+      }
+      h1{
+          color:#ffffff;
+          text-shadow:-1px -1px #111111;
+          font-size: 400%;
+          width: 940px;
+          height: 130px;
+          margin: 0px;
+      }
+      nav,footer{
+          clear: both;
+          color: #ffffff;
+          background-color:  #aeaca8;
+          height: 30px;
+      }
+      nav ul{
+          margin:0px;
+          padding: 5px 0px 5px 30px;
+      }
+      nav li{
+          display: inline;
+          margin-right:40px;
+      }
+      nav li a{
+          color: #ffffff;
+      }
+      nav li a:hover, nav li a.current{
+          color:#000000;
+      }
+      section.courses{
+          float: left;
+          width: 659px;
+          border-right: 1px solid #eeeeee;
+      }
+      article{
+          clear: both;
+          overflow:auto;
+          width:100%;
+      }
+      hgroup{
+          margin-top:40px;
+      }
+      figure{
+          float:left;
+          width:290px;
+          height:220px;
+          padding:5px;
+          margin:20px;
+          border:1px solid #eeeeee;
+      }
+      figcaption{
+          font-size:90%;
+          text-align: left;
+      }
+      aside{
+          width:230px;
+          float:left;
+          padding: 0px 0px 0px 20px;
+      }
+      aside section a{
+          display: block;
+          padding: 10px;
+          border-bottom: 1px solid #eeeeee;
+      }
+      aside section a:hover{
+          color: #985d6a;
+          background-color: #efefef;
+      }
+      a{
+          color: #de6581;
+          text-decoration: none;
+      }
+      h1,h2,h3{
+          font-weight: normal;
+      }
+      h2{
+          margin: 10px 0px 5px 0px;
+          padding: 0px;
+      }
+      h3{
+          margin: 0px 0px 10px 0px;
+          color:#de6581;
+
+      }
+      aside h2{
+          padding: 30px 0px 10px 0px;
+          color: #de6581;
+      }
+      footer{
+          font-size:80%;
+          padding: 7px 0px 0px 20px;
+      }
+
+    </style>
+    <!--[ifit IE9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+          <h1><br/><br/><br/>QUIPU WEBSITE </h1>
+        <nav>
+            <ul>
+                <li><a href="홈페이지예제.html" class="current">홈</a></li>
+                <li><a href="" >공지사항</a></li>
+                <li><a href="" >활동</a></li>
+                <li><a href="" >익명 게시판</a></li>
+                <li><a href="" >익명 게시판</a></li>
+                <li><a href="" >방명록</a></li>
+            </ul>
+        </nav>
+      </header>
+
+      <section class="courses">
+        <article>
+            <figure>
+                <img src="KakaoTalk_20170303_000615472.png" alt="computer" style="width:290px; height:180px;"/>
+                <figcaption>Bae YuBin</figcaption>
+            </figure>
+            <hgroup>
+                <h2>UOS 중앙동아리 Quipu</h2>
+		<h3>퀴푸홈페이지에 오신걸 환영합니다.</h3>
+            </hgroup>
+		<p>
+		저희는 주로 안드로이드와같은 프로그래밍 언어를 공부하지만<br/>
+        	의무사항이 아니기 때문에<br/>
+                전공자, 비전공자 모두에게 열려있습니다.<br/>
+		오셔서 같이 공부도 하고 보드게임도 해요~<br/></p>
+        </article>
+
+	 <article>
+            <figure>
+                <img src="KakaoTalk_20170303_000615472.png" alt="computer" style="width:290px; height:180px;"/>
+                <figcaption>Bae YuBin</figcaption>
+            </figure>
+            <hgroup>
+                <h2>Quipu 동아리 활동</h2>
+		<h3>전공 관련 자체 강의및 프로젝트 진행</h3>
+            </hgroup>
+		<p>학부생의 전공과목 학습에 도움이 되고자 <br/>자체적인 강의를 진행하고있습니다.<br/>
+        	그밖에도 게임제작, 아두이노, 라즈베리 파이등<br/>
+		다양한 프로젝트를 진행하고 있습니다.<br/></p>
+        </article>
+
+      </section>
+	<aside>
+           <section class="school">
+	         <h2>학교 홈페이지</h2>
+		<a href="">서울시립대 메인사이트</a>
+		<a href="">서울시립대 포털사이트</a>
+		<a href="">서울시립대 광장</a>
+		<a href="">서울시립대 대나무숲</a>
+	</section>
+	<section class="contact">
+	         <h2>연락처</h2>
+		<p>회장 김종현<br/>
+		010-6478-9865 <br/><br/>
+		부회장 임동영<br/>
+		010-9169-7157</p>
+
+	</section>
+	</aside>
+	<footer>
+	모든 제작권은 ooo에게 있음
+	</footer>
+	</div><!-- .wrapper -->
+</body>
+</html>
